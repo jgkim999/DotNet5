@@ -19,7 +19,7 @@ namespace greet
         {
             return Task.FromResult(new HelloReply
             {
-                Message = "Hello " + request.Name
+                Message = "WOW. Hello " + request.Name
             });
         }
     }
